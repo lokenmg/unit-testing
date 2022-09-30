@@ -1,3 +1,7 @@
 export function compute(x : number){
-  return -1;
+  if (x<0) {
+    return 0;
+  } else {
+    return x+1;
+  }
 }
