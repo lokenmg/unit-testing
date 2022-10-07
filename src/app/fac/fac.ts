@@ -5,8 +5,9 @@ export function fac(x:number){
   if (x>16 || x<0) {
     return 0;
   }else{
-    while (aux<x) {
+    while (aux<=x) {
       fact=fact*aux;
+      aux++;
     }
     return fact;
   }
