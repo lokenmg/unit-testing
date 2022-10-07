@@ -16,7 +16,7 @@ describe('pow test suite', () =>{
     expect(result).toBe(8);
   });
 
-  it('Should return 9 if base=3, exponent=2', () =>{
+  it('Should return 9 if base=3, exponent=2 ', () =>{
     const result =pow(3 , 2);
     expect(result).toBe(9);
   });
