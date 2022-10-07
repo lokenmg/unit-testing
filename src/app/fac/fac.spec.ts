@@ -27,7 +27,7 @@ describe('fac test suite', () =>{
   });
 
   it('Should return 0 if n > 16', () =>{
-    const result =fac(18);
+    const result =fac(19);
     expect(result).toBe(0);
   });
 });
